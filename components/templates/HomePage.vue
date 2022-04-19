@@ -1,6 +1,5 @@
 <template>
-  <div class="home-cards">
-    <span class="text-white">Cards</span>
+  <div class="home-cards bg-danger">
   </div>
 </template>
 <script>
@@ -9,6 +8,7 @@ export default {
 </script>
 <style scoped>
 .home-cards {
-  overflow-x: scroll;
+  height: 95%;
+  width: 80vw;
 }
 </style>
