@@ -24,7 +24,7 @@ export default {
 <style scoped>
 .nav-bar {
     position: fixed;
-    width: 80%;
+    width: 70%;
     color: white;
 }
 .button-step {

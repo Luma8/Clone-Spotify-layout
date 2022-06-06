@@ -1,11 +1,11 @@
 <template>
-  <div class="menu-songs">
-    <div class="mt-2 menu-songs-content ml-2" v-for="song in songs" :key="song" >
-        <a class="links-songs" href="#">
-            {{ song.tracks }}
-        </a>
+    <div class="menu-songs">
+        <div class="mt-2 menu-songs-content ml-2" v-for="song in songs" :key="'Songs'+song" >
+            <a class="links-songs" href="#">
+                {{ song.tracks }}
+            </a>
+        </div>
     </div>
-  </div>
 </template>
 <script>
 export default {
@@ -13,7 +13,7 @@ export default {
         return {
             //MOckups
             songs : [
-                { tracks: 'Song-1'}, 
+                { tracks: 'Kate Bush'}, 
                 { tracks: 'Song-2'},
                 { tracks: 'Song-3'},
                 { tracks: 'Song-4'}, 
@@ -46,7 +46,7 @@ export default {
                 { tracks: 'Song-31'},
             ]
         }
-    }
+    },
 }
 </script>
 <style scoped>
